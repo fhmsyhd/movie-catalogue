@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="title_activity_detail_movie">DetailMovieActivity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="share_text">Nonton yuk! %s di bioskop terdekat</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movie">Movie</string>
+    <string name="tv_show">Tv Show</string>
+    <string name="judul_film">Judul</string>
+    <string name="genre">Genre :</string>
+    <string name="genre_film">genre</string>
+    <string name="durasi">Durasi :</string>
+    <string name="durasi_film">durasi</string>
+    <string name="sutradara">Sutradara :</string>
+    <string name="sutradara_film">sutradara</string>
+    <string name="rating_imdb">Rating IMDb :</string>
+    <string name="rating_film">rating</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="sinopsis_film">sinopsis</string>
+</resources>
