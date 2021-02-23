@@ -18,4 +18,9 @@
     <string name="rating_film">rating</string>
     <string name="sinopsis">Sinopsis</string>
     <string name="sinopsis_film">sinopsis</string>
+    <string name="menu_favorite">favorite</string>
+    <string name="favorite_movies">Favorite Movies</string>
+    <string name="message_undo">Batalkan menghapus item sebelumnya?</string>
+    <string name="message_ok">OK</string>
+    <string name="data_kosong">Data Kosong!</string>
 </resources>

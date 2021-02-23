@@ -1,10 +1,13 @@
 package org.fhmsyhdproject.moviecatalogue.ui.tvshow
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import org.fhmsyhdproject.moviecatalogue.data.MovieEntity
-import org.fhmsyhdproject.moviecatalogue.utils.DataDummy
+import androidx.paging.PagedList
+import org.fhmsyhdproject.moviecatalogue.data.source.local.entitiy.MovieEntity
+import org.fhmsyhdproject.moviecatalogue.data.source.MovieRepository
+import org.fhmsyhdproject.moviecatalogue.vo.Resource
 
-class TvShowViewModel: ViewModel() {
+class TvShowViewModel(private val movieRepository: MovieRepository): ViewModel() {
 
-    fun getMovies(): List<MovieEntity> = DataDummy.generateDummyMovies()
+    fun getTvShow(): LiveData<Resource<PagedList<MovieEntity>>> = movieRepository.getAllTvShow()
 }
