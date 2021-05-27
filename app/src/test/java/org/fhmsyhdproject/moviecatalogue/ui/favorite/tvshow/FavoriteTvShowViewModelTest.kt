@@ -40,7 +40,7 @@ class FavoriteTvShowViewModelTest {
     }
 
     @Test
-    fun getFavoriteMovies() {
+    fun getFavoriteTvShows() {
         val dummyFavoriteTvShow = pagedList
         `when`(dummyFavoriteTvShow.size).thenReturn(5)
         val favoriteMovies = MutableLiveData<PagedList<MovieEntity>>()
